@@ -1,2 +1,9 @@
-# Themekit Docker
-Shopify's themekit binary in a Docker image 
+# Docker Images
+
+@TODO
+
+- Shopify's themekit binary in a Docker image 
+
+## LICENSE
+
+MIT License
