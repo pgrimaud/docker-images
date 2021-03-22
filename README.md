@@ -9,10 +9,10 @@ This repository contains my Docker public images available on the GitHub public 
 
 ## Build
 
-To build an image, just run the command `make`.  You'll see the available images to build.
+**To build an image, just run the command `make`.  You'll see the available images to build.**
 
-To build and publish **Theme Kit** image, just run : 
-```make themekit-image```
+e.g. to build and publish **Theme Kit** image, just run : 
+```make themekit-image```.
 
 ## LICENSE
 
