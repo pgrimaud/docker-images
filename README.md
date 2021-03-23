@@ -4,7 +4,8 @@ This repository contains my Docker public images available on the GitHub public 
 
 ## Images
 
-- Shopify's themekit binary in a Docker image 
+- Shopify's [https://github.com/Shopify/themekit][theme kit] binary in a Docker image 
+- Shopify's [https://github.com/Shopify/theme-check][theme check] binary in a Docker image
 - More to come...
 
 ## Build
@@ -17,3 +18,7 @@ e.g. to build and publish **Theme Kit** image, just run :
 ## LICENSE
 
 MIT License
+
+[]: https://github.com/Shopify/theme-checktheme
+
+[]: https://github.com/Shopify/themekitthemekit

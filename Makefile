@@ -12,8 +12,8 @@ themekit-image: ## Build themekit image & push it to GitHub registry
 	docker tag themekit $(REGISTRY_HOST)/$(USERNAME)/themekit:latest && \
 	docker push $(REGISTRY_HOST)/$(USERNAME)/themekit:latest
 
-dummy-image: ## Build dummy image & push it to GitHub registry
-	cd ./dummy && \
-	docker build -t dummy . && \
-	docker tag dummy $(REGISTRY_HOST)/$(USERNAME)/dummy:latest && \
-	docker push $(REGISTRY_HOST)/$(USERNAME)/dummy:latest
+themecheck-image: ## Build themecheck image & push it to GitHub registry
+	cd ./themecheck && \
+	docker build -t themecheck . && \
+	docker tag themecheck $(REGISTRY_HOST)/$(USERNAME)/themecheck:latest && \
+	docker push $(REGISTRY_HOST)/$(USERNAME)/themecheck:latest
