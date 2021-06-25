@@ -9,8 +9,8 @@ help:
 themekit-image: ## Build themekit image & push it to GitHub registry
 	cd ./themekit && \
 	docker build -t themekit . && \
-	docker tag themekit $(REGISTRY_HOST)/$(USERNAME)/themekit:latest && \
-	docker push $(REGISTRY_HOST)/$(USERNAME)/themekit:latest
+	docker tag themekit $(REGISTRY_HOST)/$(USERNAME)/themekit:2.2.1 && \
+	docker push $(REGISTRY_HOST)/$(USERNAME)/themekit:2.2.1
 
 themecheck-image: ## Build themecheck image & push it to GitHub registry
 	cd ./themecheck && \
