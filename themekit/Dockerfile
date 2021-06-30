@@ -1,6 +1,6 @@
 FROM alpine:3.13
 
-LABEL org.opencontainers.image.source https://github.com/pgrimaud/docker-images
+LABEL org.opencontainers.image.source="https://github.com/pgrimaud/docker-images"
 
 RUN apk update && \
     apk add curl py3-pip
